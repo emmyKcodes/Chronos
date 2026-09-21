@@ -1,56 +1,462 @@
-# Welcome to your Expo app 👋
+# CHRONOS
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### Make time feel beautiful. Make goals feel achievable. Make the next step obvious.
 
-## Get started
+Chronos is a premium mobile-first productivity and goal-planning application designed to help users turn ambitious goals into realistic, actionable plans.
 
-1. Install dependencies
+Instead of forcing users to manually build complex productivity systems, Chronos follows a simple flow:
 
-   ```bash
-   npm install
-   ```
+**Goal → AI Breakdown → Milestones → Tasks → Calendar → Progress**
 
-2. Start the app
+Users tell Chronos what they want to accomplish, and the product helps transform that intention into a structured roadmap, actionable tasks, scheduled time, and measurable progress.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## ✨ Product Overview
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Most productivity tools focus heavily on tasks, calendars, or statistics.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Chronos focuses on something more fundamental:
 
-## Get a fresh project
+> **What are you trying to achieve, and what should you do next?**
 
-When you're ready, run:
+The product combines:
 
-```bash
-npm run reset-project
+*  Goal planning
+*  AI-assisted goal breakdown
+*  Milestone roadmaps
+*  Actionable tasks
+*  Calendar planning
+*  Progress tracking
+*  Context-aware AI assistance
+*  Weekly reviews and planning
+
+The experience is intentionally calm and minimal, allowing Chronos to handle complexity behind the scenes.
+
+---
+
+## 🚀 Core Features
+
+### 🎯 Goal Management
+
+Create meaningful long-term goals and track progress toward them.
+
+Each goal can contain:
+
+* Progress percentage
+* Milestones
+* Tasks
+* Deadlines
+* Priorities
+* Scheduled work
+* AI assistance
+
+Example:
+
+```text
+Become a Senior Frontend Developer
+62% complete
+
+01  Master advanced React       ✓
+02  Build production projects   →
+03  Learn system design
+04  Improve testing
+05  Build your portfolio
+06  Prepare for interviews
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+### 🧠 AI Goal Breakdown
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Chronos turns high-level goals into structured plans.
 
-## Learn more
+For example:
 
-To learn more about developing your project with Expo, look at the following resources:
+```text
+Goal:
+Become a Senior Frontend Developer
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+↓
 
-## Join the community
+AI-generated roadmap:
 
-Join our community of developers creating universal apps.
+01. Master advanced React
+02. Build production projects
+03. Learn system design
+04. Improve testing
+05. Build your portfolio
+06. Prepare for interviews
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+The objective is to make large goals feel achievable by turning them into smaller, actionable steps.
+
+---
+
+### 📅 Intelligent Scheduling
+
+Chronos helps users convert their roadmap into actual time on their calendar.
+
+The AI schedule planner considers available time and recommends when tasks should be completed.
+
+Example:
+
+```text
+Available time
+8h 30m
+
+Chronos recommends:
+
+Monday      React Architecture     1h
+Wednesday   System Design          1h
+Thursday    Project Development    2h
+Saturday    Portfolio              2h
+```
+
+Users can then add the suggested schedule directly to their calendar or adjust it manually.
+
+---
+
+### 💬 Ask Chronos
+
+Chronos includes a context-aware AI assistant rather than a generic chatbot.
+
+Users can ask questions such as:
+
+* How should I approach this goal?
+* What should I focus on this week?
+* I'm falling behind. Help me adjust my plan.
+* Break this milestone into smaller tasks.
+
+The assistant is designed around the user's goals, milestones, tasks, and progress.
+
+---
+
+### 📊 Weekly Progress
+
+Chronos provides a calm weekly review instead of overwhelming users with analytics.
+
+Users can see:
+
+* Tasks completed
+* Focus time
+* Goals progressed
+* Weekly reflections
+* Next-week planning
+
+The experience focuses on consistency and meaningful progress rather than excessive gamification.
+
+---
+
+### 🏆 Milestone Completion
+
+Completing an important milestone triggers a subtle celebration experience.
+
+Instead of excessive confetti or gamified effects, Chronos uses:
+
+* A refined completion animation
+* A subtle checkmark
+* Encouragement from the Chronos mascot
+* A clear next action
+
+---
+
+## 📱 Product Experience
+
+The complete user journey is designed around a focused flow:
+
+```text
+Splash
+  ↓
+Onboarding
+  ↓
+Goal Creation
+  ↓
+AI Analysis
+  ↓
+Goal Roadmap
+  ↓
+Home
+  ↓
+Calendar
+  ↓
+Goal Detail
+  ↓
+Add Task
+  ↓
+AI Schedule
+  ↓
+Weekly Progress
+  ↓
+Completion
+```
+
+---
+
+## 🎨 Design System
+
+Chronos uses a warm, premium visual language designed to feel more like an elegant personal companion than a conventional productivity dashboard.
+
+### Color Palette
+
+| Color                     | Purpose                         |
+| ------------------------- | ------------------------------- |
+| Latte Froth `#F3E9DC`     | Primary environment/background  |
+| Midnight Merlot `#3A0718` | Brand color and primary actions |
+| Warm Ivory                | Supporting surfaces             |
+| Soft Taupe                | Secondary elements              |
+| Muted Brown               | Supporting typography           |
+| Dark Charcoal             | Primary text                    |
+
+The interface intentionally avoids:
+
+* Neon gradients
+* Generic AI purple
+* Excessive glassmorphism
+* Dense dashboards
+* Excessive borders
+* Childish gamification
+
+---
+
+## ✦ Product Personality
+
+Chronos is represented by a custom mascot designed as a calm, intelligent mentor.
+
+The mascot is used selectively across experiences such as:
+
+* Onboarding
+* Goal creation
+* AI planning
+* Empty states
+* Milestone completion
+* Weekly reflections
+* Encouragement moments
+
+The goal is to give the product personality without turning the interface into a cartoon.
+
+---
+
+## 🧩 Main Screens
+
+### Home
+
+A time-focused dashboard showing:
+
+* Current primary goal
+* Progress
+* Today's tasks
+* Scheduled focus sessions
+* Quick task creation
+
+### Calendar
+
+A minimalist calendar connecting scheduled tasks directly to the user's goals.
+
+### Goals
+
+A dedicated overview of all active goals and their progress.
+
+### Goal Detail
+
+A complete roadmap containing:
+
+* Milestones
+* Tasks
+* Progress
+* Upcoming work
+* AI assistance
+
+### Ask Chronos
+
+A contextual AI interface for planning, adjusting, and understanding goals.
+
+### Add Task
+
+A lightweight task creation experience supporting:
+
+* Task name
+* Date
+* Time
+* Duration
+* Goal
+* Priority
+
+### AI Schedule Planner
+
+An intelligent weekly planning experience that recommends when tasks should happen.
+
+### Weekly Review
+
+A calm summary of the user's progress with options to review goals and plan the next week.
+
+---
+
+## 🛠️ Technical Focus
+
+Chronos is designed as a modern mobile-first application with an emphasis on:
+
+* Component-driven UI architecture
+* Reusable design primitives
+* Responsive layouts
+* Clear state management
+* API-driven data
+* AI-assisted workflows
+* Smooth micro-interactions
+* Maintainable TypeScript
+* Scalable application structure
+
+The architecture is intentionally designed so that product complexity can grow without making the interface feel complex.
+
+---
+
+## 🏗️ Architecture Philosophy
+
+Chronos follows a simple product principle:
+
+> **Complexity should happen behind the scenes.**
+
+The user should only need to understand:
+
+```text
+What is my goal?
+        ↓
+What should I do next?
+        ↓
+When should I do it?
+        ↓
+Am I making progress?
+```
+
+Everything else is handled by the product.
+
+---
+
+## 🎯 Design Principles
+
+### 1. Simplicity over feature density
+
+Every screen should have a clear purpose.
+
+### 2. Goals before tasks
+
+Tasks exist to move users toward meaningful goals.
+
+### 3. Time should have context
+
+Calendar events are connected to the goals they support.
+
+### 4. AI should feel invisible
+
+AI should simplify planning rather than become the product itself.
+
+### 5. Progress should feel meaningful
+
+Chronos emphasizes consistency and achievement over gamification.
+
+### 6. Motion should communicate
+
+Animations are used to provide feedback, hierarchy, and continuity rather than decoration.
+
+---
+
+## 📂 Project Structure
+
+A scalable structure can follow this pattern:
+
+```text
+src/
+├── components/
+│   ├── ui/
+│   ├── goals/
+│   ├── tasks/
+│   ├── calendar/
+│   └── chronos/
+│
+├── screens/
+│   ├── onboarding/
+│   ├── home/
+│   ├── calendar/
+│   ├── goals/
+│   ├── goal-detail/
+│   ├── assistant/
+│   ├── schedule/
+│   └── weekly-review/
+│
+├── hooks/
+├── services/
+├── store/
+├── types/
+├── utils/
+├── constants/
+└── assets/
+```
+
+---
+
+## 🔮 Future Improvements
+
+Potential future capabilities include:
+
+* Smarter personalized scheduling
+* Calendar provider integrations
+* Goal templates
+* Recurring tasks
+* Productivity insights
+* Adaptive planning when users fall behind
+* Notifications and reminders
+* Focus sessions
+* Cross-device synchronization
+* More advanced AI goal coaching
+
+---
+
+## 💡 What I Wanted to Explore
+
+Chronos was designed around a simple product question:
+
+> **Can productivity software help people focus on what actually matters instead of giving them more things to manage?**
+
+The project explores the intersection of:
+
+**Product design × AI × Goal management × Time management × Mobile UX**
+
+Rather than building another task manager, Chronos treats goals as the foundation and uses tasks and calendars as supporting tools.
+
+---
+
+## 📌 Project Status
+
+🚧 **Active Development**
+
+Chronos is being developed as a product-focused application with an emphasis on polished UI, thoughtful UX, reusable architecture, and intelligent planning workflows.
+
+---
+
+## 👨‍💻 Built With
+
+**Frontend**
+
+* TypeScript
+* React / React Native
+* Modern component-based architecture
+
+**Product**
+
+* AI-assisted planning
+* Goal management
+* Calendar scheduling
+* Progress tracking
+
+**Design**
+
+* Mobile-first UX
+* Custom design system
+* Premium editorial typography
+* Latte Froth + Midnight Merlot visual identity
+
+---
+
+## 📄 License
+
+This project is currently intended as a portfolio/product-development project.
